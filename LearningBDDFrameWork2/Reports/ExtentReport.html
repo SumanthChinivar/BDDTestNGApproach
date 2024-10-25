@@ -1,0 +1,1011 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 25, 2024 02:28:24 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add to cart</p>
+            <p class="text-sm">
+              <span>2:28:24 PM</span> / <span>00:00:00:055</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add to cart</h5>
+<span class='badge badge-success'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-danger'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-default'>00:00:00:055</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to add a product to the cart</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated()">
+                <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/Cart.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.user_is_logged_in_with_and(java.lang.String,java.lang.String)">
+                <span>And User is logged in with "standard_user" and "secret_sauce"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.user_clicks_on_add_to_cart_button(java.lang.String)">
+                <span>When User clicks on "Sauce Labs Backpack" add to cart button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.product_is_added_to_cart(java.lang.String)">
+                <span>Then "Sauce Labs Backpack" product is added to cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">LoginLogout</p>
+            <p class="text-sm">
+              <span>2:28:24 PM</span> / <span>00:00:00:050</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">LoginLogout</h5>
+<span class='badge badge-success'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-danger'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-default'>00:00:00:050</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able login and logout</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated()">
+                <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/LoginLogout.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.LoginLogout.user_enters_valid_and(java.lang.String,java.lang.String)">
+                <span>When User enters valid "standard_user" and "secret_sauce"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.LoginLogout.clicks_on_login_button()">
+                <span>And Clicks on login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.LoginLogout.home_page_should_be_displayed()">
+                <span>Then Home page should be displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.LoginLogout.user_clicks_on_menu_button_and_clicks_on_logout()">
+                <span>And User clicks on menu button and clicks on logout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.LoginLogout.user_should_be_logged_out()">
+                <span>And User should be logged out</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">BuyProduct</p>
+            <p class="text-sm">
+              <span>2:28:24 PM</span> / <span>00:00:00:052</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">BuyProduct</h5>
+<span class='badge badge-success'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-danger'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-default'>00:00:00:052</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to buy a product</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated()">
+                <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/BuyProduct.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.user_is_logged_in_with_and(java.lang.String,java.lang.String)">
+                <span>And User is logged in with "standard_user" and "secret_sauce"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.user_clicks_on_add_to_cart_button(java.lang.String)">
+                <span>When User clicks on "Sauce Labs Bike Light" add to cart button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.add_to_cart_button_should_be_turned_into_remove_button(java.lang.String)">
+                <span>Then "Sauce Labs Bike Light" Add to cart button should be turned into remove button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.navigate_to_cart_page()">
+                <span>And Navigate to cart page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.should_be_added_to_the_cart(java.lang.String)">
+                <span>And "Sauce Labs Bike Light" should be added to the cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.user_clicks_on_ckeck_out_button()">
+                <span>And User clicks on ckeck out button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.user_enters_and(java.lang.String,java.lang.String,java.lang.String)">
+                <span>And User enters "Sumanth","Chinivar" and "570085"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.clicks_on_continue()">
+                <span>And Clicks on continue</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.should_be_displayed_in_check_out_page(java.lang.String)">
+                <span>And "Sauce Labs Bike Light" should be displayed in check out page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.display_payment_id_shipping_information_and_price_total()">
+                <span>And Display payment id, shipping information and price total</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.click_on_finish()">
+                <span>And Click on finish</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.verify_has_been_displayed(java.lang.String)">
+                <span>And Verify "Thank you for your order!" has been displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.BuyProduct.click_on_back_home_button()">
+                <span>And Click on back home button</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SortAlphabeticallyInAscendingOrder</p>
+            <p class="text-sm">
+              <span>2:28:24 PM</span> / <span>00:00:00:018</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">SortAlphabeticallyInAscendingOrder</h5>
+<span class='badge badge-success'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-danger'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-default'>00:00:00:018</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to sort the values based on alphabets in ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated()">
+                <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/SortAlphabeticallyInAscendingOrder.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.user_is_logged_in_with_and(java.lang.String,java.lang.String)">
+                <span>And User is logged in with "standard_user" and "secret_sauce"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.ValidateLogin.homepage_is_displayed()">
+                <span>And Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.SortAlphabeticallyInAscendingOrder.user_clicks_on_drop_down(java.lang.String)">
+                <span>And User selects "Name (A to Z)" drop down to sort the products in ascending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.SortAlphabeticallyInAscendingOrder.products_should_be_sorted_in_ascending_order_of_alphabets()">
+                <span>Then Products should be sorted in ascending order of alphabets</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SortAlphabeticallyInAscendingOrder</p>
+            <p class="text-sm">
+              <span>2:28:24 PM</span> / <span>00:00:00:015</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">SortAlphabeticallyInAscendingOrder</h5>
+<span class='badge badge-success'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-danger'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-default'>00:00:00:015</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to sort the values based on alphabets in ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated()">
+                <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/SortAlphabeticallyInDescendingOrder.feature:5)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.AddProductToCart.user_is_logged_in_with_and(java.lang.String,java.lang.String)">
+                <span>And User is logged in with "standard_user" and "secret_sauce"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.ValidateLogin.homepage_is_displayed()">
+                <span>And Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.SortAlphabeticallyInDescendingOrder.user_selects_drop_down_to_sort_the_products_in_descending_order(java.lang.String)">
+                <span>And User selects "Name (Z to A)" drop down to sort the products in descending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.SortAlphabeticallyInDescendingOrder.products_should_be_sorted_in_descending_order_of_alphabets()">
+                <span>Then Products should be sorted in descending order of alphabets</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ValidLoginCredentials</p>
+            <p class="text-sm">
+              <span>2:28:24 PM</span> / <span>00:00:00:035</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">ValidLoginCredentials</h5>
+<span class='badge badge-success'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-danger'>10.25.2024 2:28:24 PM</span>
+<span class='badge badge-default'>00:00:00:035</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="38"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to login using valid credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to login using valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/ValidLoginCredentials.feature:5)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters valid username and password</span>
+      <div><table class='markup-table table '><tr><td>standard_user</td><td>secret_sauce</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Clicks on login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User is logged out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="53"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to login using valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/ValidLoginCredentials.feature:5)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters valid username and password</span>
+      <div><table class='markup-table table '><tr><td>performance_glitch_user</td><td>secret_sauce</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Clicks on login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User is logged out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="55"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to login using valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/ValidLoginCredentials.feature:5)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters valid username and password</span>
+      <div><table class='markup-table table '><tr><td>problem_user</td><td>secret_sauce</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Clicks on login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User is logged out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to login using valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/ValidLoginCredentials.feature:5)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters valid username and password</span>
+      <div><table class='markup-table table '><tr><td>error_user</td><td>secret_sauce</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Clicks on login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User is logged out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="71"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to login using valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given Browser is launched and url is navigated</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at stepDefinition.LoginLogout.browser_is_launched_and_url_is_navigated(LoginLogout.java:28)
+	at ✽.Browser is launched and url is navigated(file:///C:/Users/user/eclipse-workspace/LearningBDDFrameWork2/./src/test/resources/featureFiles/ValidLoginCredentials.feature:5)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters valid username and password</span>
+      <div><table class='markup-table table '><tr><td>visual_user</td><td>secret_sauce</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Clicks on login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Homepage is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User is logged out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>10</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>10 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='8'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">LoginLogout.Verify user is able login and logout.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='9'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">BuyProduct.Verify user is able to buy a product.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">Add to cart.Verify user is able to add a product to the cart.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='33'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">SortAlphabeticallyInAscendingOrder.Verify user is able to sort the values based on alphabets in ascending order.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='36'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">SortAlphabeticallyInAscendingOrder.Verify user is able to sort the values based on alphabets in ascending order.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='42'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">ValidLoginCredentials.Verify user is able to login using valid credentials.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='54'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">ValidLoginCredentials.Verify user is able to login using valid credentials.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='56'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">ValidLoginCredentials.Verify user is able to login using valid credentials.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='66'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">ValidLoginCredentials.Verify user is able to login using valid credentials.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:28:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='72'>Given Browser is launched and url is navigated</a>
+<div class="">
+<span class="badge badge-default">ValidLoginCredentials.Verify user is able to login using valid credentials.Given Browser is launched and url is navigated</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 25, 2024 02:28:24 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 25, 2024 02:28:24 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>6</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>6</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>10</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='16%'><b>10</b> steps failed,
+<b>49</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Add to cart":0.055,"LoginLogout":0.05,"BuyProduct":0.052,"SortAlphabeticallyInAscendingOrder":0.018,"SortAlphabeticallyInAscendingOrder":0.015,"ValidLoginCredentials":0.035
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 6,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 10,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 10,
+warningGrandChild: 0,
+skipGrandChild: 49,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
